@@ -5,4 +5,5 @@ def map(array)
     {|i| i *-1}
   
 end 
-array
+array += 1
+end 
