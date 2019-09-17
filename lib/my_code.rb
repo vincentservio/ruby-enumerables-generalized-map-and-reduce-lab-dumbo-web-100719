@@ -10,7 +10,7 @@ end
 return new 
 end 
 
-def reduce(array, v=nill)
+def reduce(array, v=nil)
   if v 
     total = v
   i = 0 
