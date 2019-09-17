@@ -11,5 +11,8 @@ new
 end 
 
 def reduce(array)
-  
+  i = 0 
+  while i < array.length do 
+    
+    
 end
