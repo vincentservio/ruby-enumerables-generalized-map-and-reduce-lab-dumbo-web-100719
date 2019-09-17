@@ -10,9 +10,19 @@ end
 return new 
 end 
 
-def reduce(array)
+def reduce(array, v=nill)
+  if v 
+    total = v
   i = 0 
+else 
+ total = array [0]
+ i = 1 
+ end 
+ 
   while i < array.length do 
+    total = yiel (total, array [i])
     
-    
+  i+=1
+end
+total 
 end
