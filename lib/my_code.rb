@@ -1,8 +1,10 @@
 def map(array)
+  new = []
   i = 0 
-  while i < array.length 
+  while i < array.length do 
+
     
-    {|i| i *-1}
+    array|i| i *-1
   
 end 
 array += 1
