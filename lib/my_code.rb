@@ -19,8 +19,8 @@ else
  i = 1 
  end 
  
-  while i < array.length do 
-    total = yiel (total, array [i])
+  while i < array.length 
+    total = yield(total, array [i])
     
   i+=1
 end
