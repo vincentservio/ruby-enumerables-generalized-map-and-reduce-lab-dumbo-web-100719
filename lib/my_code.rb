@@ -1,6 +1,6 @@
 def map(array)
   i = 0 
-  while i < array.length do 
+  while i < array.length 
     
     {|i| i *-1}
   
