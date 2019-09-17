@@ -1,5 +1,3 @@
-def map(n)
-  new[]
-  {|n| n * -1}
+def map(array)
   
 end 
