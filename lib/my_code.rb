@@ -5,8 +5,7 @@ def map(array)
 
     
     array|i| i ** -1
-  
+  array += 1
 end 
-array += 1
+return new 
 end 
-end
