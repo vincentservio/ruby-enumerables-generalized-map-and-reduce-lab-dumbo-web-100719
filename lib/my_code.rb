@@ -4,7 +4,7 @@ def map(array)
   while i < array.length do 
 
     
-    array|i| i *-1
+    array|i| i **-1
   
 end 
 array += 1
